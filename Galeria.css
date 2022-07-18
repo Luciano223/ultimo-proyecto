@@ -1,0 +1,253 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    min-height: 70px;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color:rgb(140, 0, 240);
+}
+a:hover{
+    color: rgb(140, 0, 240);
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 50px;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    padding-right: 10px;
+}
+.section-1{
+    padding: 50px 0;
+    background-color: aliceblue;
+    width: 100%
+}
+.section-2{
+    padding: 50px 0;
+    background-color: rgb(207, 207, 207);
+    width: 100%;
+}
+.section-3{
+    padding: 50px 0;
+    background-color: rgb(173, 173, 173);
+    width: 100%;
+}
+.container-1 h1{
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+}
+.container-1{
+    width: 100%;
+    max-width: 1400px;
+    min-height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.container-1 .tarjetas{
+    background-color: aliceblue;
+    width: 300px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px rgb(0, 0, 0);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.container-1 .tarjetas:hover{
+    transform: rotateY(-15px);
+    box-shadow: 0px 12px 16px rgb(0, 0, 0);
+}
+.container-1 .tarjetas img{
+    width: 100%;
+    height: 200px;
+}
+.container-1 .tarjetas h4{
+    font-weight: 600;
+}
+.container-1 .tarjetas a{
+    font-weight: 600;
+}
+.container-1 .tarjetas a:hover{
+    color:rgb(140, 0, 240);
+}
+.container-2 h2{
+    color: rgb(0,0,0);
+    width: 100%;
+    text-align: center;
+}
+.container-2{
+    width: 100%;
+    max-width: 1400px;
+    min-height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.container-2 .tarjetas{
+    background-color: aliceblue;
+    width: 300px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px rgb(0, 0, 0);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.container-2 .tarjetas:hover{
+    transform: rotateY(-15px);
+    box-shadow: 0px 12px 16px rgb(0, 0, 0);
+}
+.container-2 .tarjetas img{
+    width: 100%;
+    height: 200px;
+}
+.container-2 .tarjetas h4{
+    font-weight: 600;
+}
+.container-2 .tarjetas a{
+    font-weight: 600;
+}
+.container-2 .tarjetas a:hover{
+    color:rgb(140, 0, 240);
+}
+.container-3 h2{
+    color: rgb(0,0,0);
+    width: 100%;
+    text-align: center;
+}
+.container-3{
+    width: 100%;
+    max-width: 1400px;
+    min-height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.container-3 .tarjetas{
+    background-color: aliceblue;
+    width: 300px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px rgb(0, 0, 0);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.container-3 .tarjetas:hover{
+    transform: rotateY(-15px);
+    box-shadow: 0px 12px 16px rgb(0, 0, 0);
+}
+.container-3 .tarjetas img{
+    width: 100%;
+    height: 200px;
+}
+.container-3 .tarjetas h4{
+    font-weight: 600;
+}
+.container-3 .tarjetas a{
+    font-weight: 600;
+}
+.container-3 .tarjetas a:hover{
+    color:rgb(140, 0, 240);
+}
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgb(255, 255, 255);
+}
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.box-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.box-footer img{
+    width: 180px;
+}
+.terminos{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+}
+.box-footer h2{
+    margin-bottom: 30px;
+    color: black;
+    font-weight: 600;
+}
+.box-footer a{
+    margin-top: 10px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.box-footer a:hover{
+    color: blueviolet;
+}
+.box-footer a .fa-brands{
+    font-size: 20px;
+}
+.box-copiright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px ;
+}
+.box-copiright p{
+    margin-top: 20px;
+    color: black;
+}
+.box-copiright hr{
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
